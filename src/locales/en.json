@@ -1,0 +1,153 @@
+{
+  "message": "The Shop UA !!",
+  "myprog": "<br>The program allows registered customers to create orders, and until the manager confirms or closes the order, to edit or delete it.<br>The buyer can also view documents on the movement of goods and funds, and create reports on the movement of goods and the status of payments.<br>Documents and reports of clients other than the authorized client are not available.<br><br> A user with manager or administrator privileges can create orders for any customer and confirm orders created by themselves or the customer.<br>On the basis of the confirmed order it is possible to create the document of movement of the goods.<br>Also for the manager, or administrator, there is an opportunity to create documents of receipt and payment of funds.<br><br>For the selected period, the manager can generate a report on the movement and balances of goods and settlements.<br>",
+  "pages": {
+    "users": "Users",
+    "goods": "Goods",
+    "demands": "Demands",
+    "payments": "Payments",
+    "turnovers": "Turnovers",
+    "signin": "Sign In",
+    "signout": "Sign Out",
+    "reportmoney": "Report users",
+    "reportgoods": "Report turnovers",
+    "about": "About ..."
+  },
+  "btn":{
+    "save": "Save",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "ok": "Ok",
+    "signin": "Log in",
+    "remindPass": "Remind password",
+    "ascopy": "as copy"
+    
+  },
+  "msg":{
+    "confdel": "Delete record?",
+    "confsave": "Save record?",
+    "search": "Search",
+    "editrec": "Edit record",
+    "dark": "Dark ",
+    "insertrec": "New record",
+    "action": "Action",
+    "signin": "Log in to the system",
+    "login": "Login",
+    "loginph": "Your login",
+    "password": "Password",
+    "newpass": "Set new password",
+    "passwordph": "Your password"
+    
+  },
+  
+  "goods":{
+    "groupname": "Groupname",
+    "goods": "Goods",
+    "description": "Description",
+    "picture": "Picture",
+    "measure": "Measure unit",
+    "price": "Price",
+    "barcode": "Barcode",
+    "remainder": "Remainder",
+    "reserved": "Reserved"
+    
+  },
+
+  
+  "users":{
+    "fullname": "User name",
+    "phonenumber": "Phone number",
+    "email": "Email",
+    "deliveryaddress": "Order delivery address",
+    "role": "Rights",
+    "login": "Login",
+    "password": "Password",
+    "balance": "Balance"
+  },
+  
+  "payments":{ 
+    "docdate": "Date",
+    "fullname": "User name",
+    "inpay": "Incoming pay",
+    "outpay": "Outcoming pay",
+    "comment": "Payment comment"
+  },
+  "demands":{ 
+    "docdate": "Date",
+    "docnumber": "Number of doc",
+    "fullname": "User name",
+    "phonenumber": "Phone number",
+    "email": "email",
+    "deliveryaddress": "Order delivery address",
+    "totalDemand": "Demanded sum",
+    "totalConfirm": "Confirmed sum",
+    "opened": "Opened",  
+    "comment": "Сomment",
+    "balance": "User balance",
+    "lines":{
+      "goods": "Goods",
+      "measure": "unit",
+      "remainder": "Remainder",
+      "reserved": "Reserved",      
+      "quantityDemand": "Quantity ordered",
+      "priceDemand": "Price ordered",
+      "totalDemand": "Order amount",
+      "quantityConfirm": "Confirmed quantity",
+      "priceConfirm": "Confirmed price.",
+      "totalConfirm": "Confirmed amount",
+      "currentprice": "Price list"
+    }
+  },
+
+  "turnovers":{
+    "docdate": "Date",
+    "docnumber": "Number of doc",
+    "totalIn": "Received",
+    "totalOut": "Released",
+    "comment": "Comment",
+    "delivered": "Delivered",
+    "returned": "Return",
+    "fullname": "Client name",
+    "phonenumber": "Phone number",
+    "email": "Email",
+    "deliveryaddress": "Deliveryaddress",
+    "balance": "Balance client",
+    "lines": {
+      "quantityIn": "Received quantity",
+      "quantityOut": "Released quantity",
+      "priceIn": "Receive price",
+      "priceOut": "Release price",
+      "totalIn": "Received amount",
+      "totalOut": "Released amount",
+      "goods": "Goods",
+      "measure": "one",
+      "remainder": "Remainder",
+      "reserved": "Reserved",
+      "currentprice": "Pricelist"
+      }
+  },
+
+  "reports":{
+    "beginperiod": "Beginning period",
+    "endperiod": "End of period",
+    "docdate": "docdate ",
+    "docnumber": "# doc.",
+    "fullname": "Supplier / Buyer",
+     "groupname": "Group",
+     "goods": "Goods",
+     "beginquantity": "Incoming bal.",
+     "quantityin": "Received",
+     "totalin": "Rec. amount",
+     "quantityout": "Released",
+     "totalout": "Rel. amount",
+     "endquantity": "Outgoing bal.",
+     "inpay": "Get paid",
+     "outpay": "Give payment",
+     "beforemoney": "Incoming money bal.",
+     "endmoney": "Outgoing money bal."
+     
+     
+  }
+    
+
+}
