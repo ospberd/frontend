@@ -124,7 +124,7 @@
                 <template v-if="!isAdmin">   <!--  not admin role-->
                     <table border=1  width="100%" cellspacing="0"   >
                         <th colspan="3"  style="background-color:#7773" > {{item.goods}} </th>  
-                        <th>{{$t('goods.measure')}}</th><th>{{$t('goods.price') }}</th><th>{{$t('goods.barcode')}}</th>
+                        <tr><th>{{$t('goods.measure')}}</th><th>{{$t('goods.price') }}</th><th>{{$t('goods.barcode')}}</th></tr>
                         <tr>
                             <td align="right" >{{ item.measure }} </td><td align="right"> {{ item.price }} </td>
                             <td align="right"> {{ item.barcode }}</td> 
@@ -138,7 +138,7 @@
                             <v-icon @click="editItem(item)" color="blue" > mdi-pencil </v-icon>    
                             <v-icon @click="deleteItem(item)" color="red" > mdi-delete </v-icon>
                         </th>
-                        <th>{{$t('goods.measure')}}</th><th>{{$t('goods.price') }}</th><th>{{$t('goods.remainder')}}</th><th>{{$t('goods.reserved')}}</th>
+                        <tr><th>{{$t('goods.measure')}}</th><th>{{$t('goods.price') }}</th><th>{{$t('goods.remainder')}}</th><th>{{$t('goods.reserved')}}</th></tr>
                         <tr>
                             <td align="right" >{{ item.measure }} </td><td align="right"> {{ item.price }} </td>
                             <td align="right"> {{ item.remainder }}</td><td align="right"> {{ item.reserved }}</td>

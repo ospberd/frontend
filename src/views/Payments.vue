@@ -196,13 +196,10 @@ export default {
                             forsearch.toString().toLowerCase().indexOf(search.toLowerCase()) !== -1
             },
 
-        printReport(item) {  
-     
-            this.printedItem.docdate = item.docdate;
-            this.printedItem.fullname = item.fullname;
-            this.printedItem.inpay = item.inpay;
-            this.printedItem.outpay = item.outpay;
-            this.printedItem.comment = item.comment;
+        async printReport(item) {  
+            
+            this.printedItem = Object.assign({}, item);
+            this.printedItem = await Object.assign({}, item);
             
             let divToPrint= document.getElementById("printTable");
             let newWin= window.open("");
