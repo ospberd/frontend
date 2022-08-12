@@ -3,7 +3,7 @@
 ### Demo
 See [Demo](http://ospberd.online).
 
-test accaunts
+test accounts
 
 login: admin
 password: admin
