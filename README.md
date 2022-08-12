@@ -1,24 +1,12 @@
 # frontend
 
-## Project setup
-```
-npm install
-```
+### Demo
+See [Demo](http://ospberd.online).
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+test accaunts
 
-### Compiles and minifies for production
-```
-npm run build
-```
+login: admin
+password: admin
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+login: client
+password: client
